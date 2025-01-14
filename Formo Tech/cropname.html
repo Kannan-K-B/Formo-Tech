@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formo Tech</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="images/web-tab-logo.png">
+</head>
+<body class="pagination-body-1">
+    <header class="header">
+        <img src="images/Formo Tech.png" alt="Logo" class="logo">
+       
+    </header>
+
+    <div class="container1">
+        <div class="search-category-container1">
+            <input type="text" id="search-bar1" placeholder="Search items...">
+            <select id="category-dropdown1">
+                <option value="">Select Category</option>
+                <option value="Fruit">Fruit</option>
+                <option value="Vegetable">Vegetable</option>
+                <option value="Dairy">Dairy</option>
+            </select>
+        </div>
+
+        <div class="grid-container1" id="item-list1"></div>
+
+        <div class="pagination1">
+            <button id="prev1" onclick="previousPage1()">Previous</button>
+            <button id="next1" onclick="nextPage1()">Next</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
